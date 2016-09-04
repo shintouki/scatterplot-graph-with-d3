@@ -1,0 +1,59 @@
+body {
+  background-color: #ba9077;
+}
+
+.chartDiv {
+  width: 960px;
+  padding: 25px 0px 10px 20px;
+  height: 560px;
+  margin: 80px auto 0 auto;
+  background-color: #5a5c51;
+}
+
+.axis text {
+  font: 14px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.tick text {
+  font-size: 14px;
+}
+
+.tick line {
+  stroke-width: 1px;
+}
+
+div.tooltip {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 1em sans-serif;
+  background: gray;
+  border: 0px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  font-family: Cinzel, sans-serif;
+}
+
+p a {
+  text-decoration: none;
+  color: #16174f;
+}
+
+#author {
+  text-align: center;
+  margin-top: 5em;
+  font-family: Cinzel, sans-serif;
+}
